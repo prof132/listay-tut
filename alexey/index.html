@@ -162,6 +162,10 @@
     .viewer { width:min(96vw, 430px); border-radius:22px; }
     .arrow { width:42px; height:42px; font-size:25px; }
   }
+  .comic-links {display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:5px auto 0;max-width:94vw;}
+  .comic-links a {display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:10px 15px;border-radius:999px;border:1px solid rgba(255,255,255,.34);color:#fff;text-decoration:none;font-size:14px;font-weight:700;background:rgba(7,20,48,.58);}
+  .comic-links a.order {background:#ff465d;border-color:#ff465d;}
+  .comic-links a:hover,.comic-links a:focus-visible {filter:brightness(1.13);outline-offset:3px;}
 </style>
 </head>
 <body>
@@ -183,6 +187,7 @@
 
   <div class="dots" id="dots"></div>
   <div class="hint">Подсказка: на телефоне можно листать свайпом влево и вправо.</div>
+  <nav class="comic-links" aria-label="Навигация по сайту"><a href="https://listay-tut.ru/examples/">← Все примеры</a><a class="order" href="https://forms.yandex.ru/u/6ae618d76d2d730a45dd7631/" target="_blank" rel="noopener noreferrer">Заказать свой</a></nav>
 </div>
 
 <script>
