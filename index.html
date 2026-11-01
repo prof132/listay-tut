@@ -1,88 +1,52 @@
-<!doctype html>
-<html lang="ru">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#101b3d">
-<title>ЛИСТАЙ ТУТ! — Персональные комиксы в подарок</title>
-<meta name="description" content="ЛИСТАЙ ТУТ! — персональные комиксы по вашим фотографиям. Необычный подарок с юмором, который можно листать на телефоне.">
-<link rel="canonical" href="https://listay-tut.ru/">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://listay-tut.ru/">
-<meta property="og:title" content="ЛИСТАЙ ТУТ! — Комиксы с характером">
-<meta property="og:description" content="Превратим фотографии и истории в оригинальный комикс-подарок.">
-<meta property="og:image" content="https://listay-tut.ru/listay-main-preview.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<style>
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#101b3d"><title>ЛИСТАЙ ТУТ! — Персональные комиксы в подарок</title><meta name="description" content="ЛИСТАЙ ТУТ! — персональные комиксы по вашим фотографиям. Необычный подарок с юмором, который можно листать на телефоне."><link rel="canonical" href="https://listay-tut.ru/"><meta property="og:type" content="website"><meta property="og:url" content="https://listay-tut.ru/"><meta property="og:title" content="ЛИСТАЙ ТУТ! — Комиксы с характером"><meta property="og:description" content="Превратим фотографии и истории в оригинальный комикс-подарок."><meta property="og:image" content="https://listay-tut.ru/listay-main-preview.jpg"><meta name="twitter:card" content="summary_large_image"><style>
 :root{color-scheme:dark;--bg:#0b1230;--panel:#172149;--text:#f9fbff;--muted:#b9c5e3;--red:#ff465d;--yellow:#ffd755}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#26478a 0,transparent 46%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif;min-height:100vh;line-height:1.5}
-a{color:inherit}header,main,footer{width:min(1080px,calc(100% - 36px));margin:auto}header{padding:35px 0 25px;text-align:center}.brand{font-weight:1000;font-size:clamp(42px,10vw,82px);line-height:1;letter-spacing:-.055em;color:#fff;text-shadow:5px 6px 0 #d72442;transform:rotate(-2deg);display:inline-block}.brand span{color:var(--yellow)}.subtitle{color:var(--muted);font-size:clamp(16px,2.8vw,21px);margin:22px 0 12px}.hero-text{max-width:720px;margin:0 auto 22px;color:#e5ecff;font-size:clamp(17px,2.5vw,22px)}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:var(--red);color:#fff;padding:14px 23px;border-radius:999px;font-size:16px;font-weight:800;min-height:48px;border:0;cursor:pointer}.button.secondary{background:#273a74;border:1px solid #6983c2}.button[aria-disabled="true"]{opacity:.65;cursor:not-allowed}.section-title{font-size:clamp(25px,4vw,34px);margin:43px 0 16px}.intro{color:var(--muted);margin:-4px 0 22px}.cards,.tiers,.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:20px}.card,.tier,.step{display:block;position:relative;overflow:hidden;border:1px solid #ffffff27;background:var(--panel);border-radius:20px;color:inherit;text-decoration:none;box-shadow:0 12px 35px #03071d70}.card.available{transition:transform .18s,box-shadow .18s}.card.available:hover,.card.available:focus-visible{transform:translateY(-5px);box-shadow:0 20px 40px #03071d99}.poster{display:block;width:100%;aspect-ratio:9/13;object-fit:cover;object-position:top;background:#243158}.card-body,.tier,.step{padding:20px}.card h3,.tier h3{font-size:24px;margin:0 0 8px}.card p,.tier p,.step p{margin:0 0 16px;color:var(--muted)}.go{display:inline-flex;align-items:center;gap:8px;background:var(--red);padding:11px 17px;border-radius:999px;font-size:15px;font-weight:800}.note{color:var(--muted);font-size:14px;margin:20px 0 0}.catalog-action{text-align:center;margin:25px 0 0}.price{font-size:35px;font-weight:900;color:var(--yellow);margin:8px 0}.tier .count{font-weight:700;color:#f2f4ff}.tier ul{padding-left:21px;color:#dbe5fa;margin:14px 0 0}.tier li{margin:7px 0}.step-number{font-size:39px;font-weight:900;color:var(--yellow)}.step h3{font-size:20px;margin:4px 0 9px}.step p{margin:0}.cta{margin:47px 0 10px;text-align:center;padding:30px 20px;border:1px solid #ffffff27;background:linear-gradient(135deg,#283c75,#172149);border-radius:24px}.cta h2{margin:0 0 10px;font-size:30px}.cta p{color:#dbe4fc;max-width:660px;margin:0 auto 20px}footer{text-align:center;color:#aebcde;font-size:14px;padding:43px 0 28px}footer nav{margin-top:10px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}footer a{color:#cdd7f4}#status{font-size:12px;color:#aab6d1;margin-top:9px} @media(max-width:480px){header{padding-top:28px}.cards{grid-template-columns:1fr;max-width:390px;margin:auto}.poster{aspect-ratio:9/12}.tiers,.steps{grid-template-columns:1fr}}
-</style>
-</head>
-<body>
-<header>
-<div class="brand">ЛИСТАЙ <span>ТУТ!</span></div>
-<p class="subtitle" id="subtitle">Комиксы с характером. Нажимай, листай, улыбайся!</p>
-<p class="hero-text" id="hero-description">Создаём персональные комиксы по фотографиям и историям о близких. Подарок, в котором главный герой — ваш человек!</p>
-<div class="actions"><a class="button order-link" href="https://forms.yandex.ru/u/6ae618d76d2d730a45dd7631" target="_blank" rel="noopener noreferrer">Заказать комикс</a><a class="button secondary" href="examples/index.html">Посмотреть примеры</a></div>
-</header>
-<main>
-<section id="examples">
-<h2 class="section-title" id="examples-heading">Посмотрите, как это выглядит</h2>
-<p class="intro">Герои настоящие, приключения нарисованные, впечатления — надолго.</p>
-<div class="cards" aria-label="Каталог комиксов">
-<a class="card available" href="https://listay-tut.ru/evgeniy/" aria-label="Открыть комикс Евгений"><img class="poster" src="https://listay-tut.ru/evgeniy/cover.jpg" alt="Обложка комикса Евгений"><div class="card-body"><h3>Евгений</h3><p>Рыбалка, семья, любимый джек-рассел и приключения с юмором. 11 страниц.</p><span class="go">Открыть комикс →</span></div></a>
-<a class="card available" href="https://listay-tut.ru/alexey/" aria-label="Открыть комикс Алексей"><img class="poster" src="https://listay-tut.ru/alexey/cover.jpg" alt="Обложка комикса Алексей"><div class="card-body"><h3>Алексей</h3><p>Спорт, работа, преподавание и множество других ролей — комикс с юмором.</p><span class="go">Открыть комикс →</span></div></a>
-</div>
-<p class="note">Каждая история открывается как отдельная листалка: удобно на телефоне, работают стрелки и свайпы.</p>
-<div class="catalog-action"><a class="button secondary" href="examples/index.html">Больше примеров →</a></div>
-</section>
-<section id="prices">
-<h2 class="section-title" id="prices-heading">Выберите формат подарка</h2>
-<p class="intro">Стоимость зависит от объёма истории. Детали и пожелания обсудим после заявки.</p>
-<div class="tiers" id="tiers">
-<article class="tier" data-code="mini"><h3>Сюрприз</h3><div class="price">1 990 ₽</div><div class="count">4–5 экранов</div><p>Короткая история с неожиданной улыбкой.</p></article>
-<article class="tier" data-code="standard"><h3>История о тебе</h3><div class="price">3 990 ₽</div><div class="count">8–10 экранов</div><p>Больше сюжетов, деталей и любимых моментов.</p></article>
-<article class="tier" data-code="premium"><h3>Легенда о герое</h3><div class="price">7 990 ₽</div><div class="count">12–16 экранов</div><p>Большое персональное приключение.</p></article>
-</div>
-<p class="note" id="price-note">Публикация в общем каталоге возможна только с отдельного письменного разрешения. При согласии на публикацию и использование согласованных материалов в рекламе предусмотрена скидка 15%.</p>
-</section>
-<section id="process"><h2 class="section-title">Как это работает</h2><div class="steps">
-<div class="step"><div class="step-number">01</div><h3>Расскажите идею</h3><p>Оставьте заявку, выберите формат и способ получения.</p></div>
-<div class="step"><div class="step-number">02</div><h3>Пришлите фотографии</h3><p>После связи с нами передайте фотографии героя, его интересы и пожелания к сюжету.</p></div>
-<div class="step"><div class="step-number">03</div><h3>Получите комикс</h3><p>Согласуем детали и передадим готовую интерактивную историю по ссылке.</p></div>
-</div></section>
-<section class="cta" id="order"><h2 id="order-heading">Подарите историю, которую хочется листать!</h2><p id="order-description">Заполните небольшую форму — мы свяжемся с вами, уточним детали и расскажем о следующих шагах.</p><a id="external-order" class="button" href="https://forms.yandex.ru/u/6ae618d76d2d730a45dd7631" target="_blank" rel="noopener noreferrer">Перейти к оформлению заказа</a><div id="status" aria-live="polite"></div></section>
-</main>
-<footer><div>© ЛИСТАЙ ТУТ!</div><nav aria-label="Юридическая информация"><a href="https://listay-tut.ru/privacy-listay.html">Политика обработки персональных данных</a><a href="https://listay-tut.ru/consent-listay.html">Согласие на обработку персональных данных</a></nav></footer>
-<script>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(circle at 80% 0%,#26478a 0,transparent 46%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif;line-height:1.5}a{color:inherit}
+header,main,footer{width:min(1080px,calc(100% - 36px));margin:auto}header{text-align:center;padding:35px 0 25px}.brand{font-weight:1000;font-size:clamp(42px,10vw,82px);line-height:1;letter-spacing:-.055em;color:#fff;text-shadow:5px 6px 0 #d72442;transform:rotate(-2deg);display:inline-block;text-decoration:none}.brand span{color:var(--yellow)}.subtitle{color:var(--muted);font-size:clamp(16px,2.8vw,21px);margin:22px 0 12px}.hero-text{max-width:720px;margin:0 auto 22px;color:#e5ecff;font-size:clamp(17px,2.5vw,22px)}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:var(--red);color:#fff;padding:14px 23px;border-radius:999px;font-size:16px;font-weight:800;min-height:48px;border:0;cursor:pointer}.button.secondary{background:#273a74;border:1px solid #6983c2}.section-title{font-size:clamp(25px,4vw,34px);margin:43px 0 16px}.intro{color:var(--muted);margin:-4px 0 22px}.cards,.tiers,.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:20px}.card,.tier,.step{display:block;position:relative;overflow:hidden;border:1px solid #ffffff27;background:var(--panel);border-radius:20px;color:inherit;text-decoration:none;box-shadow:0 12px 35px #03071d70}.card{transition:transform .18s,box-shadow .18s}.card:hover,.card:focus-visible{transform:translateY(-5px);box-shadow:0 20px 40px #03071d99}.poster{display:block;width:100%;aspect-ratio:9/13;object-fit:cover;object-position:top;background:#243158}.card-body,.tier,.step{padding:20px}.card h3,.tier h3{font-size:24px;margin:0 0 8px}.card p,.tier p,.step p{margin:0 0 16px;color:var(--muted)}.go{display:inline-flex;align-items:center;gap:8px;background:var(--red);padding:11px 17px;border-radius:999px;font-size:15px;font-weight:800}.note{color:var(--muted);font-size:14px;margin:20px 0 0}.catalog-action{text-align:center;margin:25px 0 0}.price{font-size:35px;font-weight:900;color:var(--yellow);margin:8px 0}.tier .count{font-weight:700;color:#f2f4ff}.step-number{font-size:39px;font-weight:900;color:var(--yellow)}.step h3{font-size:20px;margin:4px 0 9px}.step p{margin:0}.cta{margin:47px 0 10px;text-align:center;padding:30px 20px;border:1px solid #ffffff27;background:linear-gradient(135deg,#283c75,#172149);border-radius:24px}.cta h2{margin:0 0 10px;font-size:30px}.cta p{color:#dbe4fc;max-width:660px;margin:0 auto 20px}footer{text-align:center;color:#aebcde;font-size:14px;padding:43px 0 28px}footer nav{margin-top:10px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}footer a{color:#cdd7f4}@media(max-width:480px){header{padding-top:28px}.cards{grid-template-columns:1fr;max-width:390px;margin:auto}.poster{aspect-ratio:9/12}.tiers,.steps{grid-template-columns:1fr}}
+</style></head><body><header><div class="brand">ЛИСТАЙ <span>ТУТ!</span></div><p class="subtitle" id="subtitle">Комиксы с характером. Нажимай, листай, улыбайся!</p><p class="hero-text" id="hero-description">Создаём персональные комиксы по фотографиям и историям о близких. Подарок, в котором главный герой — ваш человек!</p><div class="actions"><a class="button" href="https://forms.yandex.ru/u/6ae618d76d2d730a45dd7631" target="_blank" rel="noopener noreferrer">Заказать комикс</a><a class="button secondary" href="examples/index.html">Посмотреть примеры</a></div></header>
+<main><section id="examples"><h2 class="section-title" id="examples-heading">Посмотрите, как это выглядит</h2><p class="intro">Герои настоящие, приключения нарисованные, впечатления — надолго.</p><div class="cards" id="comic-cards" aria-label="Примеры комиксов"><p class="intro">Загружаем опубликованные примеры…</p></div><p class="note">Каждая история открывается как отдельная листалка: удобно на телефоне, работают стрелки и свайпы.</p><div class="catalog-action"><a class="button secondary" href="examples/index.html">Больше примеров →</a></div></section>
+<section id="prices"><h2 class="section-title" id="prices-heading">Выберите формат подарка</h2><p class="intro">Стоимость зависит от объёма истории. Детали и пожелания обсудим после заявки.</p><div class="tiers" id="tiers"><article class="tier" data-code="mini"><h3>Сюрприз</h3><div class="price">1 990 ₽</div><div class="count">4–5 экранов</div><p>Короткая история с неожиданной улыбкой.</p></article><article class="tier" data-code="standard"><h3>История о тебе</h3><div class="price">3 990 ₽</div><div class="count">8–10 экранов</div><p>Больше сюжетов, деталей и любимых моментов.</p></article><article class="tier" data-code="premium"><h3>Легенда о герое</h3><div class="price">7 990 ₽</div><div class="count">12–16 экранов</div><p>Большое персональное приключение.</p></article></div><p class="note" id="price-note">Публикация в общем каталоге возможна только с отдельного письменного разрешения. При согласии на публикацию и использование согласованных материалов в рекламе предусмотрена скидка 15%.</p></section>
+<section id="process"><h2 class="section-title">Как это работает</h2><div class="steps"><div class="step"><div class="step-number">01</div><h3>Расскажите идею</h3><p>Оставьте заявку, выберите формат и способ получения.</p></div><div class="step"><div class="step-number">02</div><h3>Пришлите фотографии</h3><p>После связи с нами передайте фотографии героя, его интересы и пожелания к сюжету.</p></div><div class="step"><div class="step-number">03</div><h3>Получите комикс</h3><p>Согласуем детали и передадим готовую интерактивную историю по ссылке.</p></div></div></section>
+<section class="cta" id="order"><h2 id="order-heading">Подарите историю, которую хочется листать!</h2><p id="order-description">Заполните небольшую форму — мы свяжемся с вами, уточним детали и расскажем о следующих шагах.</p><a class="button" href="https://forms.yandex.ru/u/6ae618d76d2d730a45dd7631" target="_blank" rel="noopener noreferrer">Перейти к оформлению заказа</a></section></main><footer><div>© ЛИСТАЙ ТУТ!</div><nav aria-label="Юридическая информация"><a href="https://listay-tut.ru/privacy-listay.html">Политика обработки персональных данных</a><a href="https://listay-tut.ru/consent-listay.html">Согласие на обработку персональных данных</a></nav></footer><script>
 'use strict';
-// Публичная ссылка на форму оформления заказа.
-const YANDEX_FORM_URL = 'https://forms.yandex.ru/u/6ae618d76d2d730a45dd7631';
 const SETTINGS_API_URL='https://script.google.com/macros/s/AKfycbwK4BhDjnkBF_7dZ-8Bo7tYFQ-OpUS53bIb6T6UbWhk3Z6rIVSU_YZkRr7gs9U1iZXTLA/exec';
-const byId=(id)=>document.getElementById(id);
-function attachOrderLink(){const a=byId('external-order');if(YANDEX_FORM_URL && /^https:\/\//i.test(YANDEX_FORM_URL)){a.href=YANDEX_FORM_URL;a.textContent='Перейти к оформлению заказа';a.target='_blank';a.rel='noopener noreferrer';document.querySelectorAll('a.order-link').forEach(e=>{e.href=YANDEX_FORM_URL;e.target='_blank';e.rel='noopener noreferrer';});}}
-function arr(value){if(Array.isArray(value))return value;if(value && typeof value==='object')return Object.entries(value).map(([code,v])=>typeof v==='object'?{code,...v}:{code,value:v});return [];}
-function pick(o,keys,def=''){if(!o || typeof o!=='object')return def;for(const k of keys){if(o[k]!==undefined&&o[k]!==null&&o[k]!=='')return o[k]}return def;}
-function write(id,v){if(typeof v==='string' && v.trim())byId(id).textContent=v;}
-function applySettings(data){if(!data||typeof data!=='object')return;
-const formatSource=pick(data,['formats','tariffs','packages','products','Форматы подарков'],[]);
-for(const f of arr(formatSource)){const code=String(pick(f,['code','Код','id','key'],'')).toLowerCase();const node=document.querySelector('.tier[data-code="'+code.replace(/[^a-z0-9_-]/g,'')+'"]');if(!node)continue;const visible=pick(f,['show','visible','Показывать'],true);if(visible===false||visible==='нет'||visible==='Нет'||visible==='FALSE') {node.hidden=true;continue;}writeNode(node,'h3',pick(f,['name','title','Название']));const price=pick(f,['price','Цена']);if(price!==''&&price!==undefined){const n=String(price).replace(/\s/g,'');writeNode(node,'.price',/^\d+(?:[.,]\d+)?$/.test(n)?new Intl.NumberFormat('ru-RU',{maximumFractionDigits:0}).format(Number(n))+' ₽':String(price));}const screens=pick(f,['screens','pages','Количество экранов']);writeNode(node,'.count',screens && !/экран/i.test(String(screens)) ? String(screens)+' экранов' : screens);writeNode(node,'p',pick(f,['description','shortDescription','Краткое описание']));const included=pick(f,['included','Что входит']);if(included){let ul=node.querySelector('ul');if(!ul){ul=document.createElement('ul');node.appendChild(ul);}ul.replaceChildren();String(included).split(/\n|;/).filter(Boolean).forEach(x=>{const li=document.createElement('li');li.textContent=x.trim();ul.appendChild(li);});}}
-const t=pick(data,['texts','siteTexts','Тексты сайта'],{});const map={'hero_subtitle':'subtitle','subtitle':'subtitle','hero_description':'hero-description','portfolio_title':'examples-heading','examples_heading':'examples-heading','tariffs_title':'prices-heading','prices_heading':'prices-heading','order_heading':'order-heading','order_description':'order-description'};if(t && !Array.isArray(t)){for(const [key,id] of Object.entries(map))write(id,typeof t[key]==='string'?t[key]:'');}else for(const x of arr(t)){const key=String(pick(x,['key','Ключ','code'],''));if(map[key])write(map[key],String(pick(x,['value','Значение','text'],'')));}
+function renderCatalog(items, featuredOnly){
+  if(!Array.isArray(items))return;
+  const container=document.getElementById('comic-cards');
+  if(!container)return;
+  const selected=items.filter(x=>x&&typeof x==='object'&&(!featuredOnly||x.featured===true))
+    .filter(x=>/^https:\/\/listay-tut\.ru\//.test(x.url||'')&&/^https:\/\/listay-tut\.ru\//.test(x.cover||''))
+    .sort((a,b)=>(Number(a.order)||999)-(Number(b.order)||999));
+  const cards=document.createDocumentFragment();
+  for(const c of selected){
+    const a=document.createElement('a');a.className='card available';a.href=c.url;a.target='_blank';a.rel='noopener noreferrer';
+    a.setAttribute('aria-label','Открыть комикс '+String(c.title||''));
+    const img=document.createElement('img');img.className='poster';img.src=c.cover;img.alt='Обложка комикса '+String(c.title||'');img.loading='lazy';
+    const body=document.createElement('div');body.className='card-body';
+    const h=document.createElement('h3');h.textContent=String(c.title||'');
+    const d=document.createElement('p');d.textContent=String(c.description||'');
+    const go=document.createElement('span');go.className='go';go.textContent='Открыть комикс →';
+    body.append(h,d,go);a.append(img,body);cards.append(a);
+  }
+  container.replaceChildren(cards);
+  if(selected.length===0){const p=document.createElement('p');p.className='intro';p.textContent='Пока нет опубликованных примеров.';container.append(p);}
 }
-function writeNode(parent,selector,value){if(value!==null&&value!==undefined&&String(value).trim()){const target=parent.querySelector(selector);if(target)target.textContent=String(value);}}
-attachOrderLink();
-// Apps Script возвращает JSONP: listayApplySettings({...}), а не обычный JSON.
-// Глобальная функция должна существовать до подключения внешнего скрипта.
-window.listayApplySettings=function(payload){
-  if(payload && payload.success===true){applySettings(payload);byId('status').textContent='';}
-};
-// Для статической страницы GitHub Pages используем JSONP, не fetch().
-const settingsScript=document.createElement('script');
-settingsScript.src=SETTINGS_API_URL;
-settingsScript.async=true;
-settingsScript.onerror=()=>{byId('status').textContent='';};
-document.head.appendChild(settingsScript);
-</script>
-</body>
-</html>
+function loadPublicSettings(){
+  const s=document.createElement('script');s.src=SETTINGS_API_URL;s.async=true;s.onerror=()=>{const c=document.getElementById('comic-cards');if(c){const p=document.createElement('p');p.className='intro';p.textContent='Каталог временно недоступен. Попробуйте обновить страницу.';c.replaceChildren(p);}};document.head.appendChild(s);
+}
+
+function write(id,value){const el=document.getElementById(id);if(el&&typeof value==='string'&&value.trim())el.textContent=value;}
+function applySettings(data){
+  if(!data||typeof data!=='object')return;
+  if(Array.isArray(data.formats))for(const f of data.formats){
+    const code=String(f.code||'').replace(/[^a-z0-9_-]/gi,'');const el=document.querySelector('.tier[data-code="'+code+'"]');if(!el)continue;
+    const set=(sel,v)=>{const t=el.querySelector(sel);if(t&&v!==undefined&&v!==null&&String(v).trim())t.textContent=String(v)};
+    set('h3',f.title);if(Number.isFinite(Number(f.price))&&Number(f.price)>0)set('.price',new Intl.NumberFormat('ru-RU').format(Number(f.price))+' ₽');
+    if(f.screens)set('.count',String(f.screens)+(/экран/i.test(String(f.screens))?'':' экранов'));
+    set('p',f.description);
+  }
+  const t=data.texts||{};const map={hero_subtitle:'subtitle',hero_description:'hero-description',portfolio_title:'examples-heading',tariffs_title:'prices-heading',hero_title:null};
+  for(const [key,id] of Object.entries(map))if(id)write(id,t[key]);
+}
+window.listayApplySettings=function(payload){if(payload&&payload.success===true){applySettings(payload);renderCatalog(payload.catalog,true)}};
+loadPublicSettings();
+</script></body></html>
